@@ -9,7 +9,7 @@ let actRandomSeed = 0;
 let sketch;
 
 function setup() { 
-  sketch = createCanvas(600,600);
+  sketch = createCanvas(500,500);
   sketch.parent("p5");
   tileWidth = width / tileCountX;
   tileHeight = height / tileCountY;
