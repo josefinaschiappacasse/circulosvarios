@@ -6,9 +6,11 @@ let colorStep = 15;
 let circleCount;
 let endSize, endOffset;
 let actRandomSeed = 0;
+let sketch;
 
 function setup() { 
-  createCanvas(700,700);
+  sketch = createCanvas(700,700);
+  sketch.parent("p5");
   tileWidth = width / tileCountX;
   tileHeight = height / tileCountY;
 } 
