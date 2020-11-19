@@ -55,5 +55,5 @@ function mousePressed() {
 }
 
 function keyTyped() {
-  if (key == 'g') save("P_2_1_3_01.png");
+  if (key == 'g') save("P_2_1_3_01.jpg");
 }
