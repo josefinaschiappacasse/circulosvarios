@@ -19,7 +19,7 @@ function draw() {
   smooth();
   noFill();
   stroke(0, 128);
-  background("yellow"); 
+  background(random(100,200),random(100,200),random(100,200)); 
   randomSeed(actRandomSeed);
   push();
   translate((width/tileCountX)/2, (height/tileCountY)/2);
